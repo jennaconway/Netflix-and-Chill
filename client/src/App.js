@@ -5,11 +5,12 @@ import About from "./components/About";
 import Quiz from "./components/Quiz"
 import Link from "./components/Link";
 import Results from "./components/Results";
+import Header from "./components/Header";
 
 const App = () =>
   <Router>
     <div> 
-  
+    <Header />
       <Link to="/">About</Link>
       <Route exact path="/" component={About} />
      
@@ -19,9 +20,6 @@ const App = () =>
       <Link to="/results">Results</Link>
       <Route exact path="/results" component={Results} />
       
-      {/* <Switch>
-        <Route /> 
-      </Switch> */}
     </div>
   </Router>;
 

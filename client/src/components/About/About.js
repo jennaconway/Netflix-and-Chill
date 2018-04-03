@@ -3,7 +3,9 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { Col, Row, Container } from "../../components/Grid";
 import Footer from "../../components/Footer/footer";
-import Button from "../Button";
+import Button from "../Button"; 
+import Form from "../Form";
+import Header from "../../components/Header";
 
 class About extends Component {
   state = {
@@ -16,6 +18,7 @@ class About extends Component {
           <Col size="md-6">
               <h1>Who Should You Chill With?</h1>
               <p>About this quiz etc etc etc etc etc etc</p>
+              <Form />
             <Link to="/quiz">
               <Button /> 
             </Link>       

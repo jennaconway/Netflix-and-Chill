@@ -1,3 +1,3 @@
 module.exports = {
-  Book: require("./match")
+  User: require("./user.js")
 };
