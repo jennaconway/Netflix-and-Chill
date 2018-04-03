@@ -20,7 +20,7 @@ class About extends Component {
               <p>About this quiz etc etc etc etc etc etc</p>
               <Form />
             <Link to="/quiz">
-              <Button /> 
+              <Button>Start Quiz</Button> 
             </Link>       
             <Footer />
           </Col>         
