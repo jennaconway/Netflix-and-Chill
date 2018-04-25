@@ -5,7 +5,7 @@ import "./header.css";
 const Header = props => (
     <header>
         <div>
-        <p> HEADER </p>
+        <p></p>
         <img src={'../images/netflix-and-chill.png'} alt="netflix" className="" />
         </div>
     </header>
